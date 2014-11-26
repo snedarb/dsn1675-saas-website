@@ -35,7 +35,6 @@ body {
 /* Blue background colour */
 .section-blue {
   background-color: #449da5;
-  color: #ffffff;
 }
 
 /* Transparent */
@@ -95,10 +94,23 @@ a {
 
 .text {
   text-align: center;
+  color: #666666;
 }
 
 .please-work {
   display: inline-block;
+}
+
+.description-text {
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+
+.sign-up-text {
+  color: #666666;
+  position: relative;
+  text-align: center;
 }
 
 @media only screen and (min-width: 25em) {
