@@ -113,6 +113,16 @@ a {
   text-align: center;
 }
 
+a:hover, 
+a:active {
+  color: #e2e2e2;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav li {
