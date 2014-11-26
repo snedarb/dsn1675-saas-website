@@ -29,7 +29,7 @@ body {
 
 /* Grey background colour */
 .section-dark {
-  background-color: #ccc;
+  background-color: #706f75;
 }
 
 /* Styles links */
@@ -39,6 +39,7 @@ a {
 
 /* Centers masthead */
 .masthead {
+  color: #ffffff; /* Colours text in masthead white */
   text-align: center;
 }
 
@@ -56,12 +57,42 @@ a {
 
 .footer {
   text-align: center; /* Centers content in footer */
+  color: #ffffff; /* Colours footer text white */
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner-img {
+  padding-top: 56.25%;
+  background: #a368ab url("http://placehold.it/1920x1080/a368ab") no-repeat center center;
+  background-size: cover;
+}
+
+.intro-wrap {
+  background-color: #706f75; /* Grey background */
+  color: #ffffff; /* White text */
+}
+
+.intro {
+  max-width: 20em; /* Gives the banner intro a maximum width */
+  margin: 0 auto;
+  width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
 
   .nav li {
     display: inline-block; /* Changes nav list items to inline block*/
+  }
+
+  .intro-wrap {
+    bottom: 1.5rem; /* Text's distance from the bottom of the banner */
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
   }
 
 }
