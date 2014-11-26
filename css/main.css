@@ -27,14 +27,15 @@ body {
   width: 100%;
 }
 
-/* Dark grey background colour */
-.section-dark {
+/* Purple background colour */
+.section-purple {
   background-color: #a368ab;
 }
 
-/* Medium grey background colour */
-.section-medium {
-  background-color: #c0bfc6;
+/* Blue background colour */
+.section-blue {
+  background-color: #449da5;
+  color: #ffffff;
 }
 
 /* Transparent */
@@ -90,6 +91,10 @@ a {
   max-width: 20em; /* Gives the banner intro a maximum width */
   margin: 0 auto;
   width: 100%;
+}
+
+.description {
+  text-align: center;
 }
 
 @media only screen and (min-width: 25em) {
