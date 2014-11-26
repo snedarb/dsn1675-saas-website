@@ -78,7 +78,7 @@ a {
 
 .banner-img {
   padding-top: 56.25%;
-  background: #a368ab url("http://placehold.it/1920x1080/ffffff") no-repeat center center;
+  background: url("images/billboard-image.png"); no-repeat center center;
   background-size: cover;
 }
 
@@ -93,12 +93,12 @@ a {
   width: 100%;
 }
 
-.description {
+.text {
   text-align: center;
 }
 
-.inline {
-  display: inline;
+.please-work {
+  display: inline-block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -108,9 +108,8 @@ a {
   }
 
   .intro-wrap {
-    bottom: 1.5rem; /* Text's distance from the bottom of the banner */
+    bottom: 0; /* Text's distance from the bottom of the banner */
     position: absolute;
-    background-color: transparent;
     width: 100%;
   }
 
@@ -132,6 +131,14 @@ a {
 
   .nav {
     text-align: right;
+  }
+
+  .text {
+    text-align: left;
+  }
+
+  .features-padding {
+    padding-top: 3rem;
   }
 
 }
