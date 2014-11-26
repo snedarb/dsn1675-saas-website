@@ -27,9 +27,19 @@ body {
   width: 100%;
 }
 
-/* Grey background colour */
+/* Dark grey background colour */
 .section-dark {
-  background-color: #706f75;
+  background-color: #a368ab;
+}
+
+/* Medium grey background colour */
+.section-medium {
+  background-color: #c0bfc6;
+}
+
+/* Transparent */
+.transparent {
+  background-color: transparent;
 }
 
 /* Styles links */
@@ -67,7 +77,7 @@ a {
 
 .banner-img {
   padding-top: 56.25%;
-  background: #a368ab url("http://placehold.it/1920x1080/a368ab") no-repeat center center;
+  background: #a368ab url("http://placehold.it/1920x1080/ffffff") no-repeat center center;
   background-size: cover;
 }
 
@@ -109,6 +119,10 @@ a {
 
   .nav-footer {
     text-align: right; /* Aligns footer nav to right*/
+  }
+
+  .nav {
+    text-align: right;
   }
 
 }
