@@ -27,6 +27,11 @@ body {
   width: 100%;
 }
 
+.logo {
+  display: block;
+  width: 40%;
+}
+
 /* Purple background colour */
 .section-purple {
   background-color: #a368ab;
@@ -37,9 +42,9 @@ body {
   background-color: #449da5;
 }
 
-/* Transparent */
-.transparent {
-  background-color: transparent;
+/*Dark background */
+.section-dark {
+  background-color: #666666;
 }
 
 /* Styles links */
@@ -76,13 +81,13 @@ a {
 }
 
 .banner-img {
-  padding-top: 56.25%;
-  background: url("images/billboard-image.png"); no-repeat center center;
+  padding-top: 45%;
+  background: url("images/piano-martijn-de-valk.jpg"); no-repeat center center;
   background-size: cover;
 }
 
 .intro-wrap {
-  background-color: #706f75; /* Grey background */
+  background-color: #666666; /* Grey background */
   color: #ffffff; /* White text */
 }
 
@@ -98,7 +103,7 @@ a {
 }
 
 .please-work {
-  display: inline-block;
+  vertical-align: middle;
 }
 
 .description-text {
@@ -112,6 +117,8 @@ a {
   position: relative;
   text-align: center;
 }
+
+
 
 a:hover, 
 a:active {
@@ -166,6 +173,11 @@ a:active {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .content-width {
+  max-width: 85%;
+  margin: 0 auto;
+  }
   
 }
 
