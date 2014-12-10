@@ -71,6 +71,7 @@ button:hover {
 /*Dark background */
 .section-dark {
   background-color: #666666;
+  color: #fff;
 }
 
 /* Styles links */
@@ -199,7 +200,6 @@ input[type="password"]:focus {
 
 .form {
   text-align: center;
-  padding-top: 2rem;
   padding-bottom: 12rem;
 }
 
@@ -264,7 +264,7 @@ input[type="password"]:focus {
   }
 
   .content-width {
-  max-width: 85%;
+  max-width: 75%;
   margin: 0 auto;
   }
 
